@@ -1,11 +1,13 @@
 {
   "name": "system-call",
   "version": "1.0.0",
+  "description": "AI-assisted syscall safety console prototype",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
-    "build": "vite"
+    "build": "vite",
+    "preview": "vite preview --host 127.0.0.1"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
